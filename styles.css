@@ -1,0 +1,53 @@
+
+
+
+html {
+/*background-color: blue;*/
+}
+
+
+body {
+	font-family: Nunito, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	text-align: center;
+	background-color: #e3d5ca;
+	padding: 20px;
+}
+
+.contenant {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+figure {
+	flex: 1 1 30%;
+	box-sizing: border-box;
+	margin: 5px;
+	text-align: center;
+}
+
+figure img {
+	width: 100%;
+	height: auto;
+}
+
+figcaption {
+	margin-top: 5px;
+	font-size: 0.9em;
+	color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+
+.contenant{ 
+display: flex;
+flex-direction: column;
+margin-bottom: 60px;
+
+ }
+}
